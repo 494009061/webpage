@@ -1,0 +1,220 @@
+body {font-size:16px;line-height:120%; font-family: 'Microsoft YaHei',arial,helvetica,sans-serif;background-color:#fff;margin: 0;padding: 0;color:#333;}
+		div, ul, p, img,li{padding: 0;margin: 0; list-style:none;}
+		*{
+		margin:0;
+		padding:0;
+		box-sizing: border-box;
+		}
+		.wrap{
+			min-width:320px;
+			max-width:640px;
+			margin:0 auto;
+			/*padding:5px;*/
+		}
+		.content{
+			width:100%;
+			border:1px solid #ddd;
+			padding:10px;
+		}
+		.content .title{
+			margin:10px 0;
+			line-height:180%;
+			/*border-bottom:2px solid #999;*/
+		}
+		.content .title span.t1{
+			font-size:1.6rem;
+			color:#000;
+			/*font-weight:bold;*/
+		}
+		.content .title span.t2{
+			font-size:2rem;
+			color:#fff;
+			background-color: red;
+		}
+		.content .text{
+			font-size:14px;
+			line-height:2;
+		    text-align:justify;
+		    text-indent: 2rem;
+		    /*margin-bottom:0.5rem;*/
+		    word-break: break-word;
+		}
+		.content .red-color{
+			color:crimson;
+		}
+		.content .tips{
+			font-size: 1rem;
+			color:#3e3e3e;
+            text-align: center;
+            line-height: 180%;
+            font-weight:400;
+            /*color:crimson;*/
+		}
+		.content .tips-color{
+			font-size: 16px;
+			color:#b10404;
+            text-align: center;
+            line-height: 2;
+            font-weight:600;
+            /*color:crimson;*/
+		}
+		.content .tips-img{
+			font-size: .8rem;
+			color:#3e3e3e;
+            text-align: center;
+            line-height: 180%;
+            font-weight:600;
+            /*color:crimson;*/
+		}
+		.content .pic{
+			width:100%;
+			text-align:center;
+			margin-bottom:.8rem;
+		}
+		.tip{
+			text-align:center;
+			margin-bottom:.8rem;
+		}
+		.tip span.s1{
+			display: inline-block;
+			width:30px;
+			height:30px;
+			line-height:30px;
+			text-align:center;
+			font-size:1.2rem;
+			color:#fff;
+			background-color: #c52424;
+			margin:0 1rem;
+			transform: rotate(44deg);
+			-moz-transform:rotate(44deg);
+			-webkit-transform:rotate(44deg);
+			-ms-transform:rotate(44deg);
+		}
+		.tip span.s1 span.s2{
+			display: inline-block;
+			transform: rotate(-44deg);
+			-moz-transform:rotate(-44deg);
+			-webkit-transform:rotate(-44deg);
+			-ms-transform:rotate(-44deg);
+		}
+		.content .pic img{
+			width:100%;
+		}
+
+
+		.pic-wechat{
+			position: relative;
+			text-align:center;
+		}
+		.pic-wechat .person-pic{
+			width:100%;
+			margin:0 auto;
+		}
+		.pic-wechat .person-pic img{
+			width:100%;
+			display: block;
+		}
+		.pic-wechat .wechatpic{
+			position: absolute;
+			bottom:70px;
+			right:26px;
+			width:30%;
+		}
+		.pic-wechat .wechatpic img{
+			display:block;
+			width:100%;
+		}
+
+
+	/*  */
+	.tel {
+    background: #fffcd2;
+    text-align: center;
+    color: #e60012;
+    padding: 10px 0;
+    font-size: 17px;
+    margin: 2% 0;
+	}
+	.tel img {
+    width: 60%;
+    margin-top: 12px;
+}
+.titl {
+		 padding-left: 2%;
+		 font-weight: 800;
+		 font-size: 17px;
+		 color: #fff;
+		 text-align: center;
+		 background: #44c006;
+		 padding: 8px 0;
+		 }
+.mf {
+			 width: 80px;
+			 display: inline-block;
+			 height: 30px;
+	}
+ #s_province,
+ #s_city,
+ #s_county {
+			 	font-size:16px;
+        width: 32%;
+				margin-right: 0px;
+				height: 35px;
+		 }
+.foot {
+    min-width: 320px;
+    max-width: 760px;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.foot img {
+    width: 100%;
+}
+.foot span {
+    width: 7%;
+    height: 35%;
+    position: absolute;
+    left: 58%;
+    top: 30%;
+    font-size: 35px;
+    line-height: 100%;
+    color: #fff;
+    text-align: center;
+}
+.foot a {
+    display: block;
+    width: 21%;
+    height: 78%;
+    position: absolute;
+    right: 3%;
+    bottom: 7%;
+}
+@media (max-width: 620px){
+						 .foot span{font-size: 20px;top:27%;}
+				 }
+@media (max-width: 430px){
+	 .foot span{font-size: 18px; top:34%;}
+}
+@media (max-width: 400px){
+	 .foot span{font-size: 14px;}
+}
+
+
+
+		@media screen and (max-width:620px){
+			.content .pic img{
+					width:100%;
+				}
+			.pic-wechat .person-pic{
+					width:100%;
+					margin:0 auto;
+		        }
+		    .pic-wechat .wechatpic{
+					right:16px;
+					bottom:21%;
+					width:30%;
+				}
+		}
