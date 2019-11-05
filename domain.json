@@ -1,0 +1,4 @@
+{
+  "baseUrl": "http://192.168.94.114:8000/vido",
+  "rabbitMQUrl":"ws://192.168.1.22:61614/stomp"
+}
